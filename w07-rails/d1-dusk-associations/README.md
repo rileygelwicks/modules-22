@@ -3,7 +3,7 @@
 | Objectives |
 | :--- |
 | Create one-to-many and many-to-many relationships in Rails |
-|  Modify migrations to add foreign keys to tables |
+| Modify migrations to add foreign keys to tables |
 | Create a join table for a many-to-many relationship |
 | Create model instances with associations |
 
@@ -22,15 +22,15 @@
 
 ### Set Up
 
-1. In the terminal, set up a new Rails app called `practice`:
+1. In the Terminal, set up a new Rails app called `practice_associations`:
 
   ```
-  $ rails new practice -d postgresql
-  $ cd practice
+  $ rails new practice_associations -d postgresql
+  $ cd practice_associations
   $ rake db:create
   ```
 
-2. Also in the terminal, from the root of your Rails app, generate two models, `Owner` and `Pet`:
+2. Also in the Terminal, from the root of your Rails app, generate two models, `Owner` and `Pet`:
 
   ```
   $ rails g model Owner name:string
@@ -57,7 +57,7 @@
   end
   ```
 
-  **Note:** When setting up the `has_many` relationship, we use `dependent: :destroy` to maintain data integrity. This means that whenever an owner is deleted (destroyed), that owner's associated pets are also destroyed.
+  When setting up the `has_many` relationship, we use `dependent: :destroy` to maintain data integrity. This means that whenever an owner is deleted (destroyed), that owner's associated pets are also deleted from the database.
 
   `belongs_to` uses the singular form of the class name (`:owner`), while `has_many` uses the pluralized form (`:pets`).
 
@@ -79,14 +79,14 @@
         t.string :name
         t.timestamps
 
-        # add this line
-        t.integer :owner_id
+        # add this line  (MOST CORRECT)
+        t.belongs_to :owner
 
         # OR this line
         t.references :owner
 
         # OR... this line
-        t.belongs_to :owner
+        t.integer :owner_id
 
         # but NOT all three!
       end
@@ -104,13 +104,13 @@
 
 ### Using Your Associations
 
-1. Create your database tables by running your migrations from the terminal:
+1. Create your database tables by running your migrations from the Terminal:
 
   ```
   $ rake db:migrate
   ```
 
-2. Still in the terminal, enter the rails console (`rails c`) to create and associate data!
+2. Still in the Terminal, enter the rails console (`rails c`) to create and associate data!
 
   ```ruby
   Pet.count
@@ -133,7 +133,7 @@
   fido.owner.name
   ```
 
-  **Note:** We just saw that in Rails, we can associate two model **instances** together using the `<<` operator.
+  **Note:** We just saw that in Rails, we can associate two model **instances** together using the `<<` operator (or `push`).
 
 #### Wait!!! What if I forget to add a foreign key before running `rake db:migrate`?
 
@@ -152,14 +152,9 @@ Then modify the migration to include the following:
 class AddOwnerIdToPets < ActiveRecord::Migration
 
   change_table :pets do |t|
-    # only add ONE OF THESE THREE to your new migration
-    t.integer :owner_id
 
-    # OR...
-    t.references :owner
+    t.belongs_to :owner  
 
-    # OR...
-    t.belongs_to :owner
   end
 
 end
@@ -171,7 +166,7 @@ Jump over to the [One-To-Many Challenges](one_to_many_challenges.md) where you'l
 
 ## Many-To-Many (N:N) with 'through'
 
-**Example:** A student `has_many` courses and a course `has_many` students. Thinking back to our SQL discussions, recall that we used a *join* table to create this kind of association.
+**Example:** A student `has_many` courses and a course `has_many` students. SQL uses a *join table* to create this kind of association.
 
 A *join* table has two different foreign keys, one for each model it is associating. In the example below, 3 students have been associated with 4 different courses:
 
@@ -189,7 +184,7 @@ A *join* table has two different foreign keys, one for each model it is associat
 
 To create N:N relationships in Rails, we use this pattern: `has_many :related_model, through: :join_table_name`
 
-1. In the terminal, create three models:
+1. In the Terminal, create three models:
 
   ```
   rails g model Student name:string
@@ -252,7 +247,7 @@ To create N:N relationships in Rails, we use this pattern: `has_many :related_mo
 
 ### Using Your Associations
 
-1. In the terminal, run `rake db:migrate` to create the new tables.
+1. In the Terminal, run `rake db:migrate` to create the new tables.
 
 2. Enter the rails console (`rails c`) to create and associate data!
 
@@ -270,6 +265,7 @@ To create N:N relationships in Rails, we use this pattern: `has_many :related_mo
 
   # associate our model instances
   sally.courses << algebra
+  # ^ same as sally.courses.push(algebra)
   sally.courses << french
 
   fred.courses << science
@@ -301,7 +297,7 @@ Head over to the [Many-To-Many Challenges](many_to_many_challenges.md) and work 
 
 ## Migration Workflow
 
-Getting your models and tables synced up is a bit tricky. Pay close attention to the following workflow, especially the rake tasks.
+Getting your models and tables synced up is a bit tricky. Pay close attention to the following workflow, especially the `rake` tasks.
 
 ```
 # create a new rails app
@@ -338,14 +334,12 @@ rake db:migrate
 # <<< END LOOP >>>
 
 # finally, we need some data to play with
-# for now, we'll seed it manually, from the rails console...
+# you can seed it manually, from the rails console...
 rails c
 > Pet.create(name: "Wowzer")
 > Pet.create(name: "Rufus")
 
-# --- OR ---
-
-# but later we will run a seed task
+# or run a rake task to seed from Terminal
 rake db:seed
 ```
 
