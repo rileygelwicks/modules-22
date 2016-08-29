@@ -2,16 +2,22 @@
 
 Look here for all things related to lesson notes, exercises, and solutions as well as the schedule.
 
+#### Screencasts:
 [JS and jQuery Screencasts](https://www.youtube.com/playlist?list=PLw1xVKFboueks5UMLogE01mdThRU577oa)
-<br>B
-[ExpressJS Screencasts](https://www.youtube.com/playlist?list=PLNcEnkMSwDUkPTztJ8zEJsuTOMdxZshO8) (note: a few of these use a different templating solution called Handlebars instead of ejs, so those portions don't reflect what we've seen)
+<br>
+[ExpressJS 4.x Screencasts](https://www.youtube.com/playlist?list=PLNcEnkMSwDUkPTztJ8zEJsuTOMdxZshO8)
+<br>
+[Rails 4.x Screencasts](https://www.youtube.com/playlist?list=PLNcEnkMSwDUn7MQ77Z7FnMeir_b_4HSuM)
+<br>
+[Angular 1.4.x Screencasts](https://www.youtube.com/playlist?list=PLNcEnkMSwDUmKzFoqOwClxw6OIgKxa5sM)
+
 <!-- ##Week 12 -->
 <!-- <table>
   <tr>
     <th></th>
     <th>Monday</th>
     <th>Tuesday</th>
-    <th>Wednesday</th>
+    <th>Wednesday</th>m
     <th>Thursday</th>r
     <th>Friday</th>
   </tr>
@@ -48,9 +54,9 @@ Look here for all things related to lesson notes, exercises, and solutions as we
     <td>LEAVE BLANK</td>
   </tr>
 </table> -->
+##Week 11
 
-<!-- ##Week 11 -->
-<!-- <table>
+ <table>
   <tr>
     <th></th>
     <th>Monday</th>
@@ -61,40 +67,40 @@ Look here for all things related to lesson notes, exercises, and solutions as we
   </tr>
   <tr>
     <td>Drills</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Review (Team)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w11-project-3/d1-drills"> Big O </a>(Alex, Juliana)</td>
+    <td>CodeWars & Interview Prep (Brianna prep / all)</td>
+    <td>CodeWars & Interview Prep (all)</td>
+    <td>CodeWars & Interview Prep (all)</td>
+    <td>CodeWars & Interview Prep (all)</td>
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Review (Team)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-23/tree/master/w11-mean-auth-project-3/mean-auth"> MEAN Auth </a> (Braus, Alex)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/parse-projects" target="_blank">Parse Auth</a> (Ben, Matt)</td>
+    <td>Lightning Talks (Alex, Braus)  (team)</td>
+    <td>Project 3</td>
+    <td>Project 3</td>
   </tr>
   <tr>
     <td>Module2</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Weekend Lab (Team)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w11-project-3/d01-dusk-parse" target="_blank">Parse</a> (Ben)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w11-project-3/project-3" target="_blank">Project 3 Intro + Approvals</a> (team)</td>
+    <td>Project 3 Approvals (team)</td>
+    <td>Project 3</td>
+    <td></td>
   </tr>
   <tr>
-    <td>HW</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>LEAVE BLANK</td>
+    <td>Homework</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w11-project-3/d1-homework"> Add Parse To Project 0 </a></td>
+    <td>Prepare your <a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w10-mean/d5-lightning-talks" target="_blank">lightning talk</a></td>
+    <td>Project 3 prep</td>
+    <td>Project 3</td>
+    <td>Project 3</td>
   </tr>
-</table> -->
+</table>
 
-<!-- ##Week 10 -->
-<!-- <table>
+## Week 10 - MEAN
+ <table>
   <tr>
     <th></th>
     <th>Monday</th>
@@ -105,40 +111,49 @@ Look here for all things related to lesson notes, exercises, and solutions as we
   </tr>
   <tr>
     <td>Drills</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Review (Team)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w10-mean/d1-drills-trees" target="_blank">Trees & Tries Intro</a> (Brianna)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w10-mean/d2-drills-bfs" target="_blank">Breadth-First Search</a> (Brianna)</td>
+    <td>[Depth-First Search](https://github.com/sf-wdi-22-23/modules-22/tree/master/w10-mean/d3-drills-dfs) (Brianna)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w10-mean/d4-drills-bst-traversal" target="_blank">Binary Tree Traversal</a> (Brianna)</td>
+    <td>String Matching(Alex)</td>
   </tr>
   <tr>
     <td>Module1</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Review (Team)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/blob/master/w10-mean/d1-dawn-intro-angular-directives/dawn-ng-intro.md" target="_blank">Intro to Angular & Base Native Directives</a> (Alex)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/angular-ui-router-lab" target="_blank">Angular Routing with UI router</a> (Brianna)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/angular-resource-lab" target="_blank">Services and ng-resource</a> (Alex)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/angular-ui-practice" target="_blank">ng-class and CSS Animations</a> (Brianna)</td>
+    <td>Review (Alex)</td>
   </tr>
   <tr>
     <td>Module2</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w10-mean/d1-dusk-intro-mean-stack" target="_blank">Intro MEAN and Client-Side Architecture, simple $http GET</a> (Ben)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w10-mean/d2-dusk-angular-http" target="_blank">Angular $http</a> (Ben)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w10-mean/d3-dusk-custom-directives" target="_blank">Custom directives</a> (Ben)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w10-mean/d4-weekend-mean-lab-intro" target="_blank">Intro weekend lab</a> (Team)</td>
     <td>Weekend Lab (Team)</td>
   </tr>
   <tr>
     <td>HW</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>LEAVE BLANK</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/blob/master/w10-mean/d1-homework.md" target="_blank"> Angular Routing (Alex)</a></td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w10-mean/d2-homework" target="_blank">ng-resources and directives</a> (Juliana)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/blob/master/w10-mean/d3-homework.md" target="_blank"> Repsonsive design and Angular  UI Info</a> (Brianna)</td>
+    <td>CRUD Weekend Lab (Angular Prototype)</td>
+    <td>Lightning Talk Assignment / Research (Brianna)</td>
   </tr>
-</table> -->
+</table>
 
-<!-- ##Week 9 -->
-<!-- <table>
+
+## Week 9 - Project 2
+
+|  | Monday | Tuesday | Wednesday | Thursday | Friday |
+| :----------: | :----------: | :----------: | :----------: | :----------: | :----------: |
+| Dawn (10:00am) | Project 2, 11AM Action Mailer Breakout (Brianna) | Project 2 | Thanksgiving Break | Thanksgiving Break | Thanksgiving Break |
+| Dusk | Project 2 | Project 2 Presentations  | | | |
+| HW | Project 2 |  [Angular Prep and Review](./w09-project-2/thankgiving_homework.md) (Alex)  | | | |
+
+## Week 8 - Project 2
+ <table>
   <tr>
     <th></th>
     <th>Monday</th>
@@ -148,126 +163,30 @@ Look here for all things related to lesson notes, exercises, and solutions as we
     <th>Friday</th>
   </tr>
   <tr>
-    <td>Drills</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Review (Team)</td>
+    <td>Dawn (10:00am)</td>
+    <td>Project Vagabond</td>
+    <td> Vagabond Presentations  & Project 2 Pitches</td>
+    <td>Project 2</td>
+    <td>Project 2</td>
+    <td>Project 2</td>
   </tr>
   <tr>
-    <td>Module1</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Review (Team)</td>
-  </tr>
-  <tr>
-    <td>Module2</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Weekend Lab (Team)</td>
+    <td>Dusk</td>
+    <td>Heroku Deploy / Project Vagabond</td>
+    <td>Project 2 Groups Assigned & Planning </td>
+    <td>Project 2 / Breakout: Photo Uploading (Braus)</td>
+    <td>Project 2/ Breakout: Pretty URLs (Juliana)</td>
+    <td>Project 2 / Outcomes</td>
   </tr>
   <tr>
     <td>HW</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>LEAVE BLANK</td>
+    <td>Project 2</td>
+    <td>Project 2</td>
+    <td>Project 2</td>
+    <td>Project 2</td>
+    <td>Project 2</td>
   </tr>
-</table> -->
-
-<!-- ##Week 8 -->
-<!-- <table>
-  <tr>
-    <th></th>
-    <th>Monday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
-  </tr>
-  <tr>
-    <td>Drills</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Review (Team)</td>
-  </tr>
-  <tr>
-    <td>Module1</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Review (Team)</td>
-  </tr>
-  <tr>
-    <td>Module2</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Weekend Lab (Team)</td>
-  </tr>
-  <tr>
-    <td>HW</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>LEAVE BLANK</td>
-  </tr>
-</table> -->
-
-<!-- ##Week 7 -->
-<!-- <table>
-  <tr>
-    <th></th>
-    <th>Monday</th>
-    <th>Tuesday</th>
-    <th>Wednesday</th>
-    <th>Thursday</th>
-    <th>Friday</th>
-  </tr>
-  <tr>
-    <td>Drills</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Drill (tbd)</td>
-    <td>Review (Team)</td>
-  </tr>
-  <tr>
-    <td>Module1</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Review (Team)</td>
-  </tr>
-  <tr>
-    <td>Module2</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Topic (tbd)</td>
-    <td>Weekend Lab (Team)</td>
-  </tr>
-  <tr>
-    <td>HW</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>Reading (tbd)</td>
-    <td>LEAVE BLANK</td>
-  </tr>
-</table> -->
+</table>
 
 ##Week 7 - Rails
 <table>
@@ -282,34 +201,34 @@ Look here for all things related to lesson notes, exercises, and solutions as we
   <tr>
     <td>Drills</td>
     <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/d1-sql-drills" target="_blank">SQL Drills</a> (Ben)</td>
-    <td><a >Merge Sort</a> (Brianna)</td>
-    <td>Recursion (Alex)</td>
-    <td>Intro to Vagabond </td>
-    <td>Vagabond </td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/d2-drills-mergesort" target="_blank">Merge Sort</a> (Brianna)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/d3-drills-recursion" target="_blank">Recursion </a> (Alex)</td>
+    <td>Intro to <a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/vagabond" target="_blank">Vagabond</a> </td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/vagabond" target="_blank">Vagabond</a> </td>
   </tr>
   <tr>
     <td>Module1</td>
-    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/d01-dawn-asset-pipeline">Asset Pipeline</a> (Alex)</td>
-    <td><a >Auth</a> (Brianna)</td>
-    <td>Testing with Rspec (Ben)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/d01-dawn-asset-pipeline" target="_blank">Asset Pipeline</a> (Alex)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/blob/master/w07-rails/d2-dawn-auth/README.md" target="_blank">Auth</a> (Brianna)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/d3-testing-with-rspec" target="_blank">Testing with Rspec</a> (Ben)</td>
     <td>Vagabond</td>
     <td>Vagabond </td>
   </tr>
   <tr>
     <td>Module2</td>
     <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/d1-dusk-associations" target="_blank">Rails Associations</a> (Brianna)</td>
-    <td><a >Views, Validations and Errors</a> (Ben)</td>
-    <td>Library App Lab (Alex)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/d2-views-and-validation" target="_blank">Views, Validations and Errors</a> (Ben)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/d3-dusk-library-app-lab">Library App Lab </a>(Alex)</td>
     <td>Vagabond</td>
     <td>Vagabond</td>
   </tr>
   <tr>
     <td>HW</td>
     <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w07-rails/d1-homework" target="_blank">Auth Reading</a> (Brianna) </td>
-    <td>Rspec Reading (Alex)</td>
-    <td>Collaborating with Git and Github (Ben)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/blob/master/w07-rails/d02-homework/readme.md" target="_blank">Rspec Reading </a>(Alex)</td>
+    <td><a href="https://github.com/sf-wdi-22-23/modules-22/blob/master/w07-rails/d3-homework/how-to-collaborate-with-github.md" target="_blank">Collaborating with Git and Github</a> (Ben)</td>
     <td>Vagabond</td>
-    <td>Vagabond</td>
+    <td>Vagabond + <a href="https://github.com/sf-wdi-22-23/modules-22/blob/master/w07-rails/project_2_brainstorm.md"> Project 2 Brainstorm </a></td>
   </tr>
 </table>
 
@@ -337,7 +256,7 @@ Look here for all things related to lesson notes, exercises, and solutions as we
    <td>Peer Review  (Ben)</td>
    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w06-ruby/d2-dawn-ruby-methods" target="_blank">Ruby Method Drills</a> (Brianna)</td>
    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w06-ruby/d3-dawn-oop" target="_blank">Ruby OOP</a>(Brianna)</td>
-   <td><a href='https://github.com/sf-wdi-22-23/modules-22/tree/master/w06-ruby/d4-dawn-intro-to-rails'>Intro Rails Framework</a> (Alex)</td>
+   <td><a href='https://github.com/sf-wdi-22-23/modules-22/tree/master/w06-ruby/d4-dawn-intro-to-rails' target="_blank">Intro Rails Framework</a> (Alex)</td>
    <td>Review (Brianna)</td>
  </tr>
  <tr>
@@ -354,9 +273,9 @@ Look here for all things related to lesson notes, exercises, and solutions as we
    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w06-ruby/d2-homework" target="_blank">OOP Reading</a> (Alex)</td>
    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w06-ruby/d3-homework" target="_blank">Intro Rails Guide</a> (Brianna)</td>
    <td><a href="https://github.com/sf-wdi-22-23/modules-22/tree/master/w06-ruby/d4-homework" target="_blank">Rails for Zombies</a>(Ben)</td>
-   <td><a href="https://github.com/sf-wdi-22-23/bog_app" target="_blank">Bog App, </a> (Braus/Brianna) & <a href="https://github.com/sf-wdi-22-23/modules-22/blob/master/w06-ruby/rails-checklist.md">Rails Checklist, </a>
-   Check out Rails Guides on <a href="http://guides.rubyonrails.org/active_model_basics.html">Models</a> and 
-    <a href="http://guides.rubyonrails.org/association_basics.html"> AR Associations</a>(Juliana)</td>
+   <td><a href="https://github.com/sf-wdi-22-23/bog_app" target="_blank">Bog App, </a> (Braus/Brianna) & <a href="https://github.com/sf-wdi-22-23/modules-22/blob/master/w06-ruby/rails-checklist.md" target="_blank">Rails Checklist, </a>
+   Check out Rails Guides on <a href="http://guides.rubyonrails.org/active_model_basics.html" target="_blank">Models</a> and
+    <a href="http://guides.rubyonrails.org/association_basics.html" target="_blank"> AR Associations</a>(Juliana)</td>
 </tr>
 </table>
 
@@ -612,3 +531,4 @@ Look here for all things related to lesson notes, exercises, and solutions as we
     <td></td>
   </tr>
 </table>
+
